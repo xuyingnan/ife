@@ -1,0 +1,284 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	min-width: 980px;
+	background: #e2e2e2;
+}
+
+
+/*header*/
+
+.head{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #522a5c;
+}
+
+.nav{
+	width: 980px;
+	height: 80px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0px;
+	bottom: 5px;
+	height: 30px;
+}
+
+.nav ul{
+
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+
+}
+
+.nav ul li{
+	float: left;
+	margin-left:28px;	
+}
+
+.nav ul li a{
+	font:14px "宋体";
+}
+
+/*github icon*/
+#gicon{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+
+/*banner*/
+
+.banner{
+
+	width: 100%;
+	font-size: 0px;
+}
+
+.banner img{
+	width: 100%;
+	height: 500px;
+
+
+}
+
+.bcontent{
+
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.btext{
+	position: absolute;
+	width: 400px;
+	right: 0px;
+	bottom: 5px;
+	padding: 10px 10px 30px 10px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.1) 75%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.2)), color-stop(75%,rgba(255,255,255,0.1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.btext h1{
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.btext p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 150%;
+}
+
+#imgcontent{
+	width: 980px;
+	margin: 0px auto;
+	overflow: hidden;
+
+}
+
+.imgshow{
+	width: 320px;
+	background-color: #fff;
+	float: left;
+	padding-bottom: 10000px;
+	margin:10px 0 -10000px;
+
+}
+
+.imgshow img{
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 0px 10px;
+}
+
+.showleft{
+	margin-right: 10px;
+}
+
+.imgshow p{
+	font-size: 12px;
+	line-height: 170%;
+	margin:15px 30px 25px;
+}
+
+/*self introduction*/
+
+#intro{
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+	background-color: #fff;
+	text-align: center;
+
+}
+
+#intro img{
+
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+
+
+/***
+第二种方式
+
+
+#mypic{
+	margin: 0 auto;
+	font-size: 0px;
+}
+
+#mypic img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+****/
+
+
+#selfintro{
+	text-align: center;
+}
+
+#selfintro h2{	
+	margin-top: 10px;
+	font:20px "Century Gothic";
+	color: #000;
+}
+
+#selfintro p{
+	margin: 12px auto ;
+	text-align: left;
+	width: 600px;
+	font-size: 12px;		
+	color: #000;
+	line-height: 170%;
+}
+
+
+footer{
+	margin-top: 0px;
+	width: 100%;
+	background-color: #000;
+
+
+}
+
+
+
+.footer-nav{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: solid 1px #333;
+
+}
+
+.footer-nav ul{	
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+.footer-nav li{
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	right: 50%;
+}
+
+#fcontent{
+
+	width: 980px;
+	height: 200px;
+	overflow: hidden;
+	margin: 20px  auto;
+	font-size: 12px "宋体";
+	color: #fff;
+}
+
+.link-item{
+	float: left;
+	width: 196px
+}
+
+.link-item h2{
+	font-size: 12px;
+	margin-bottom: 20px;
+
+}
+
+
+.link-item ul li{
+	line-height: 170%;
+}
+
+.link-item ul li a:hover{
+	text-decoration: underline;
+}
+
+.copyright {
+	margin-top:50px;
+	text-align: center;
+}
+
+.copyright span{
+	color: #fff;
+}
+
+.copyright-ico{
+	margin-top: 20px;
+}
