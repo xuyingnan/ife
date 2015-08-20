@@ -68,6 +68,12 @@ body {
 	bottom: 0px;
 }
 
+@media (max-width: 600px){
+	#gicon{
+		display: none;
+	}
+}
+
 /*banner*/
 
 .banner{
@@ -281,4 +287,148 @@ footer{
 
 .copyright-ico{
 	margin-top: 20px;
+}
+
+
+/*blog begin!*/
+
+#blog-wrap{
+	width: 980px;
+	height: 1000px;
+	margin:20px auto 0;
+	position: relative;
+}
+
+#blog-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 710px;
+
+}
+
+#blog-sidebars{
+	position: absolute;
+	right: 0;
+	width: 260px;
+}
+
+.blog-show{
+	background-color: #fff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+
+.blog-show h1{
+	font-size: 16px;
+	color: #a660b7;
+	margin-bottom: 16px;
+}
+.blog-show h2{
+	font-size:12px;
+	color: #666;
+	margin-bottom: 12px;
+}
+
+.blog-show p{
+	font-size: 12px;
+	line-height: 150%;
+	margin-bottom: 12px;
+}
+.blog-show section{
+	font-size: 10px;
+	color: #888;
+	text-align: right;
+}
+
+.blog-tag{
+	float: left;
+	width: 50px;
+	margin-left: -60px;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.blog-date{
+	width: 50px;
+	height: 40px;
+	background-color: #522a5c;
+}
+
+.blog-type{
+	width: 50px;
+	height: 40px;
+	background-color: #a660b7;
+}
+
+.pagenum-wrap{
+	float: left;
+	margin: 0 auto 100px;
+	position: relative;
+	left: 50%;
+}
+.pagenum{
+	position: relative;
+	right: 50%;
+	float: left;
+	background-color: #fff;
+	margin: 0 5px;
+	font-size: 12px;
+	padding:12px 15px;
+	text-align: center;
+}
+
+.pagenum a{
+	color: #000;
+}
+
+.pagenum-invalid{
+	color:#666;
+}
+
+.pagenum-now{
+	background-color: #a660b7;
+}
+
+#searchdiv{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #fff;
+	position: relative;
+
+}
+#searchdiv input[type="text"]{
+	position: absolute;
+	top: 20px;
+	left:20px;
+	height: 38px;
+	width: 130px;
+	border: 1px solid #ddd;
+	color: #ddd;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+
+#searchdiv input[type="submit"]{
+
+	position: absolute;
+	top: 20px;
+	left:190px;
+	height: 40px;
+	width: 50px;
+	border: 1px solid #ddd;
+	color: #fff;
+	background-color: #ddd;
+}
+
+#searchdiv input[type="text"]:focus{
+/*	line-height:0;
+	font-size:0;
+	overflow:hidden;*/
+	background-image: none;
+
 }
